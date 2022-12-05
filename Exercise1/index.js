@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-fs.readFile('Exercicio1/file.txt', 'utf8', (err, data) => {
+fs.readFile('Exercise1/file.txt', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;

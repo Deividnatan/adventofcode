@@ -6,7 +6,7 @@
 //Z means you need to win. Good luck!"
 const fs = require('fs');
 
-fs.readFile('Exercicio2/file.txt', 'utf8', (err, data) => {
+fs.readFile('Exercise/file.txt', 'utf8', (err, data) => {
   let lines = data.split('\n')
   let sum = 0
   let sum2 = 0
